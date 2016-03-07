@@ -1,0 +1,5 @@
+<div class="row">
+   <% @products.each do |product| %>
+     <%= render partial: "product_teaser", locals: {product: product} %>
+   <% end %>
+</div>
